@@ -40,7 +40,7 @@
         <version>2.18.1</version>
         <configuration>
           <includes>
-            <include>test2.java</include>
+            <include>test*.java</include>
           </includes>
           <useFile>false</useFile>
         </configuration>
