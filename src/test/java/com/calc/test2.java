@@ -5,7 +5,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /* Создание класса, содержащего код теста */
-public class test1 {
+public class test2 {
     
 	/* Аннотация @Test указывает JUnit, что в методе находится код теста */
     @Test
