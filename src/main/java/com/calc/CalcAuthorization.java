@@ -97,3 +97,4 @@ public class CalcAuthorization implements ActionListener{
         /* Добавляем метку на панель */
         container.add(label);
     }
+}
