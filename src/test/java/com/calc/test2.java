@@ -5,7 +5,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /* Создание класса, содержащего код теста */
-public class test2 {
+public class test1 {
     
 	/* Аннотация @Test указывает JUnit, что в методе находится код теста */
     @Test
@@ -15,11 +15,11 @@ public class test2 {
 			/* Создание объекта класса, содержащего программу */
             Calculator lc = new Calculator();
 			/* Заполнение поля ввода программы определенной последовательностью символов */
-            lc.fields[0].setText("Hello, World!");
+            lc.fields[0].setText("hggfhjk");
 			/* Запуск программы */
             lc.calculate();
 			/* Сравнение результата, выдаваемого программой, с ожидаемым значением */
-            Assert.assertTrue("13".equals(lc.fields[1].getText()));
+            Assert.assertTrue("7".equals(lc.fields[1].getText()));
         }
 		/* Код, выполняемый при возникновении ошибок в процессе выполнения теста */
         catch(Exception e){
