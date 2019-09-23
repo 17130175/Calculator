@@ -19,7 +19,7 @@ import javax.swing.border.EtchedBorder;
 /* Создаем главный класс программы, реализующий интерфейс ActionListener, 
 который отвечает за обработку события нажатия на кнопку.
 */
-public class CalcAuthorization implements ActionPerformed{
+public class CalcAuthorization implements ActionListener{
 	
 	/* Создаем объект окна авторизации с помощью ключевого слова new */
     JFrame frameAut = new JFrame("Авторизация");
