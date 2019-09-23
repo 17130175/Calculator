@@ -40,7 +40,7 @@
         <version>2.19</version>
         <configuration>
           <includes>
-            <include>test*.java</include>
+            <include>test2.java</include>
           </includes>
         </configuration>
       </plugin>
